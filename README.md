@@ -2,7 +2,7 @@
 This repository is created to develop the paper Does Compulsory School Attendance Affect Schooling and Earnings? (1991) by Joshua D. Angrist and Alan B. Krueger.
 The group is made up of Frank Alvarado, Jeffry Bedia, Fernanda Martel and Andrea Romero. 
 
-# 1.Summary
+## 1. Summary
 Requirements
 Setup
 Folders
@@ -12,7 +12,7 @@ Writing
 Journal Submissions
 Principles
 
-# 2. Requirements
+## 2. Requirements
 This workflow requires:
 
 Python [Free]
@@ -21,14 +21,14 @@ Stata [Licensed]
 
 Originally adapted for OSX (Apple) environments. But feel free to adapt it to Windows (and please share it with me!).
 
-# 3. Setup
+## 3. Setup
 Create or join a cloud folder (e.g. on Dropbox or Drive) where large non-versioned files will reside.
 Clone this repository to a local folder outside the cloud folder.
 Fill out the correct environment paths in setup.sh.
 Run sh setup.sh to create symbolic links to all non-versioned folders.
 You're good to go. This repository is now ready for the standard workflow described below.
 
-# 4. Folders
+## 4. Folders
 /code
 Versioned folder containing code that builds data and performs analyses.
 
@@ -65,7 +65,7 @@ Versioned folder containing files for preliminary results, papers, talks, and ot
 /sub
 
 Curated set of packages and shortcuts commonly used in Social Science papers and presentations.
-# 5. Files
+## 5. Files
 run_paper.py
 Automates the whole paper construction.
 Runs everything in a pre-specified order, from beginning (building data sets) to end (compiling .tex files).
@@ -82,7 +82,8 @@ Add forward-looking tags and milestones to plan and version work.
 These help marking relevant releases, such as a minimum viable product (MVP), a paper submission, or a talk.
 Use semantic versioning for naming, e.g. v0.1, v1.0.2.
 Only modify files via pull requests. Use closing keywords to close issues.
-6. Writing
+
+## 6. Writing
 All writing should be done within the repository to preserve versioning and consistency.
 
 Keep a set of continuously-updated slides reflecting the current state and vision of the project.
